@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vJ5Z8qtNDlSfLHk5hxD6nhczZoXoFQEg57kS4ITb/y8bSrjXJXVxydLncS+iqDhgUbkR3KcidpwaxJtKvE0jPg==",
+  "dgSpecHash": "zJ4P7vFUwoVX5K3OXCZhGRDImYqNyXBLiZhDyQ8x3MRVt18jMYucKXCu4+WtGxeb/yWRTfCRL9xdi3QMFOqyQA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\RSUP\\DEV\\C#\\EntitiFramework\\EntitiFramework.csproj",
+  "projectFilePath": "C:\\Users\\RSUP\\DEV\\C#\\EntitiFramework\\EntitiFramework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RSUP\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\RSUP\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
