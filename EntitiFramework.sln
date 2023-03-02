@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntitiFramework", "EntitiFramework.csproj", "{D4A9AC28-9828-494F-893A-622154F28F15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntitiFramework", "EntitiFramework.csproj", "{6E0A7B25-7926-4121-B1B9-733D90E34EE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D4A9AC28-9828-494F-893A-622154F28F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D4A9AC28-9828-494F-893A-622154F28F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D4A9AC28-9828-494F-893A-622154F28F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D4A9AC28-9828-494F-893A-622154F28F15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E0A7B25-7926-4121-B1B9-733D90E34EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E0A7B25-7926-4121-B1B9-733D90E34EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E0A7B25-7926-4121-B1B9-733D90E34EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E0A7B25-7926-4121-B1B9-733D90E34EE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {7E3CC621-C09F-450B-BB00-417A52354500}
+		SolutionGuid = {B1CF68A7-7FD9-4430-95C2-0F03CF2B6338}
 	EndGlobalSection
 EndGlobal
