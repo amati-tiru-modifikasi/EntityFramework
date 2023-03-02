@@ -7,9 +7,9 @@ var veggiSpecial = context.Products
                           .Where(p => p.Name == "Veggie Special Pizza")
                           .FirstOrDefault();
 
-// if null
+// delete kalo ada
 if(veggiSpecial is Products) {
-    veggiSpecial.Price = 10.99M;
+    context.Remove(veggiSpecial);
 }
 
 // persist to db
