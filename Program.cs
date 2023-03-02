@@ -3,16 +3,15 @@ using EntitiFramework.Models;
 
 using EntitiFrameworkContext context = new EntitiFrameworkContext();
 
-Products veggieSpecial = new Products() {
-    Name = "Veggie Special Pizza",
-    Price = 9.99M
-};
-context.Products.Add(veggieSpecial);
+/* FLUENT API */
+var productss = context.Products
+                        .Where(p => p.Price > 10.00M)
+                        .OrderBy(p => p.Name);
 
-Products deluxeMeat = new Products() {
-    Name = "Deluxe Meat Pizza",
-    Price = 12.99M
-};
-context.Add(deluxeMeat);
-
-context.SaveChanges();
+foreach (Products p in productss)
+{
+    Console.WriteLine($"Id: {p.Id}");
+    Console.WriteLine($"Name: {p.Id}"); 
+    Console.WriteLine($"Price: {p.Id}");
+    Console.WriteLine(new string('-',20));
+}
